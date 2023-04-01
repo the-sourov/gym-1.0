@@ -1,0 +1,30 @@
+.section-contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+
+    & > *:not(:last-child) {
+      margin-right: 5rem;
+    }
+  }
+
+  &__divider {
+    border-left: 0.5rem solid var(--color-white-90);
+    border-radius: 1rem;
+  }
+
+  &__info-container {
+    & > *:not(:last-child) {
+      margin-bottom: 4rem;
+    }
+  }
+
+  & > .map {
+    align-self: stretch;
+  }
+}

@@ -1,0 +1,29 @@
+.social-links {
+  list-style: none;
+
+  &__link {
+    &,
+    &:link,
+    &:active,
+    &:visited {
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    &:not(:last-child) {
+      margin-right: 4rem;
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+    fill: var(--color-white);
+    height: 4rem;
+    transition: all 0.2s;
+    width: 4rem;
+
+    &:hover {
+      fill: var(--color-primary);
+    }
+  }
+}

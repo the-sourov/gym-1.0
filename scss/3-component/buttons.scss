@@ -1,0 +1,81 @@
+// --------------------> Button primary
+.btn-primary {
+  &,
+  &:link,
+  &:active,
+  &:visited {
+    border-radius: 1rem;
+    background-image: $gradient;
+    color: var(--color-white);
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.25rem;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    box-shadow: 0 1rem 2rem rgba(51, 51, 51, 0.4);
+    transform: scale(1.1);
+  }
+
+  &:active {
+    box-shadow: none;
+    transform: scale(1);
+  }
+}
+
+// --------------------> Button secondary
+.btn-secondary {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--color-secondary);
+  box-shadow: 1rem 1rem 0 rgb(51, 51, 51);
+  color: var(--color-white);
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  transition: all 0.2s;
+
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background-color: var(--color-black);
+    box-shadow: 1rem 1rem 0 var(--color-secondary);
+    cursor: pointer;
+  }
+  &:active {
+    background-color: var(--color-secondary);
+    box-shadow: 1rem 1rem 0 rgb(51, 51, 51);
+  }
+}
+
+// --------------------> Button tertiary
+.btn-tertiary {
+  &,
+  &:link,
+  &:active,
+  &:visited {
+    border-bottom: 0.25rem solid transparent;
+    color: var(--color-tertiary);
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+
+  &:hover {
+    border-bottom: 0.25rem solid currentColor;
+  }
+}

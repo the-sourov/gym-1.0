@@ -1,0 +1,32 @@
+// ====================> Importing helper files
+@import "./0-helper/color";
+@import "./0-helper/utility";
+
+// ====================> Importing base files
+@import "./1-base/base";
+@import "./1-base/typography";
+@import "./1-base/animation";
+
+// ====================> Importing layout files
+@import "./2-layout/nav-bar";
+@import "./2-layout/section-hero";
+@import "./2-layout/section-awards";
+@import "./2-layout/section-services";
+@import "./2-layout/section-quote";
+@import "./2-layout/section-about";
+@import "./2-layout/section-trainers";
+@import "./2-layout/section-testimonial";
+@import "./2-layout/section-contact";
+@import "./2-layout/footer";
+
+// ====================> Importing component files
+@import "./3-component/logo";
+@import "./3-component/nav-links";
+@import "./3-component/social-links";
+@import "./3-component/buttons";
+@import "./3-component/note";
+@import "./3-component/trainer-card";
+@import "./3-component/testimonial-card";
+@import "./3-component/bg-video";
+@import "./3-component/form";
+@import "./3-component/map";

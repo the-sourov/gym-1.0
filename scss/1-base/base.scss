@@ -1,0 +1,18 @@
+// ====================> CSS reset
+html {
+  box-sizing: border-box;
+  font-size: 50%; // ==========> (8/16 === 50%) The base font size is 8px.
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  // ==========> This is the base font. But, there is a diffrent font for heading.
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  position: relative;
+}

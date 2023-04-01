@@ -1,0 +1,38 @@
+.testimonial-card {
+  align-items: center;
+  border-radius: 1rem;
+  background-color: var(--color-white);
+  box-shadow: 0 1rem 2rem rgba(51, 51, 51, 0.4);
+  display: flex;
+  min-height: 30rem;
+  padding: 2rem;
+  width: 150rem;
+
+  &__image-container {
+    border-radius: 50%;
+    display: inline-block;
+    min-height: 20rem;
+    max-height: 20rem;
+    min-width: 20rem;
+    max-width: 20rem;
+    margin-right: 4rem;
+  }
+
+  &__image {
+    height: 100%;
+  }
+
+  &__name {
+    color: var(--color-black);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    color: var(--color-black);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+}

@@ -1,0 +1,14 @@
+.section-trainers {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  &__container {
+    display: flex;
+    padding: 0 1rem;
+
+    & > .trainer-card:not(:last-child) {
+      margin-right: 5rem;
+    }
+  }
+}

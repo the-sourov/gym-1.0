@@ -1,0 +1,33 @@
+.section-awards {
+  align-items: center;
+  background-color: var(--color-white-90);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+
+  &__container {
+    align-items: center;
+    display: flex;
+  }
+  &__icon-container {
+    align-items: center;
+    border-radius: 50%;
+    background-image: $gradient;
+    display: flex;
+    height: 12rem;
+    justify-content: center;
+    margin-right: 2rem;
+    width: 12rem;
+  }
+  &__icon {
+    fill: var(--color-white);
+    height: 60%;
+    width: 60%;
+  }
+  &__caption {
+    color: var(--color-black-90);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}

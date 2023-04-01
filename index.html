@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css"
+    />
+
+    <title>GYM 1.0</title>
+  </head>
+
+  <body>
+    <!-- --------------------Navigation bar code-------------------- -->
+    <nav class="nav-bar">
+      <a href="#HOME" class="logo">
+        <img src="./public/images/logo-1x-white.png" alt="Brand Logo" />
+      </a>
+
+      <!-- nav-links is a component that can be reuse anywhere on the website -->
+      <ul class="nav-links">
+        <li class="nav-links__item">
+          <a href="#SERVICES" class="nav-links__link">services</a>
+        </li>
+
+        <li class="nav-links__item">
+          <a href="#ABOUT-US" class="nav-links__link">about us</a>
+        </li>
+
+        <li class="nav-links__item">
+          <a href="#CONTACT-US" class="nav-links__link">contact us</a>
+        </li>
+      </ul>
+
+      <ul class="social-links">
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          class="social-links__link"
+        >
+          <svg class="social-links__icon">
+            <use href="./public/images/spite.svg#icon-facebook"></use>
+          </svg>
+        </a>
+
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          class="social-links__link"
+        >
+          <svg class="social-links__icon">
+            <use href="./public/images/spite.svg#icon-instagram"></use>
+          </svg>
+        </a>
+
+        <a
+          href="https://www.youtube.com/"
+          target="_blank"
+          class="social-links__link"
+        >
+          <svg class="social-links__icon">
+            <use href="./public/images/spite.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </ul>
+    </nav>
+    <!-- --------------------Navigation bar code-------------------- -->
+
+    <!-- --------------------Header code-------------------- -->
+    <header class="section-hero">
+      <div class="section-hero__container">
+        <h1 class="heading-primary">
+          <span class="heading-primary--sub">transform yourself</span>
+          <span class="heading-primary--main">shape your body</span>
+        </h1>
+
+        <a href="#JOIN-NOW" class="btn-primary">join now</a>
+      </div>
+    </header>
+    <!-- --------------------Header code-------------------- -->
+
+    <!-- --------------------Section awards code-------------------- -->
+    <section class="section-awards m-b-8">
+      <div class="section-awards__container">
+        <div class="section-awards__icon-container">
+          <svg class="section-awards__icon">
+            <use href="./public/images/spite.svg#icon-arm-left"></use>
+          </svg>
+        </div>
+
+        <p class="section-awards__caption">health & fitness club of the year</p>
+      </div>
+
+      <div class="section-awards__container">
+        <div class="section-awards__icon-container">
+          <svg class="section-awards__icon">
+            <use href="./public/images/spite.svg#icon-arm-right"></use>
+          </svg>
+        </div>
+
+        <p class="section-awards__caption">family friendly gym of the year</p>
+      </div>
+
+      <div class="section-awards__container">
+        <div class="section-awards__icon-container">
+          <svg class="section-awards__icon">
+            <use href="./public/images/spite.svg#icon-share"></use>
+          </svg>
+        </div>
+
+        <p class="section-awards__caption">
+          best use of social media for health & fitness
+        </p>
+      </div>
+    </section>
+    <!-- --------------------Section awards code-------------------- -->
+
+    <!-- --------------------Section services code-------------------- -->
+    <section class="section-services">
+      <h2 class="heading-secondary t-a-c m-b-8">our services</h2>
+
+      <div class="section-services__image-container">
+        <img
+          src="./public/images/section-service-img.png"
+          alt=""
+          class="section-services__image"
+        />
+
+        <img
+          src="./public/images/section-service-img.png"
+          alt=""
+          class="section-services__image"
+        />
+      </div>
+
+      <div class="section-services__wheel">
+        <div class="section-services__wheel__card">
+          <div class="section-services__wheel__caption">ac gym</div>
+        </div>
+
+        <div class="section-services__wheel__card">
+          <div class="section-services__wheel__caption">personal trainer</div>
+        </div>
+
+        <div class="section-services__wheel__card">
+          <div class="section-services__wheel__caption">free diet</div>
+        </div>
+
+        <div class="section-services__wheel__card">
+          <div class="section-services__wheel__caption">weightlifting</div>
+        </div>
+
+        <div class="section-services__wheel__pin">
+          <svg class="section-services__wheel__icon">
+            <use href="./public/images/spite.svg#icon-smily-arm"></use>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <!-- --------------------Section services code-------------------- -->
+
+    <!-- --------------------Section quote code-------------------- -->
+    <section class="section-quote m-b-8">
+      <p class="quote quote--gradient t-a-c">
+        “take care of your body. it is the only place you have to live in”
+      </p>
+    </section>
+    <!-- --------------------Section quote code-------------------- -->
+
+    <!-- --------------------Section about code-------------------- -->
+    <section class="section-about m-b-8">
+      <h2 class="heading-secondary m-b-8">about us</h2>
+
+      <div class="section-about__container m-b-8">
+        <div class="note">
+          <p class="note__caption">
+            “Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis voluptatem voluptatibus ab quae e quia ratione, ad
+            accusantium excepturi a id ex autem ea, non veniam. quia ratione, ad
+            accusantium excepturi a id ex autem ea, non veniam.”
+          </p>
+
+          <div class="note__signature-container">
+            <img
+              src="./public/images/signature.svg"
+              alt="Signature"
+              class="note__signature"
+            />
+          </div>
+        </div>
+
+        <div class="section-about__divider">&nbsp;</div>
+
+        <div class="section-about__card">
+          <div class="section-about__card__container">&nbsp;</div>
+
+          <p class="section-about__card__caption">gym</p>
+        </div>
+      </div>
+
+      <a href="#learn-more" class="btn-tertiary">learn more &rarr;</a>
+    </section>
+    <!-- --------------------Section about us code-------------------- -->
+
+    <!-- --------------------Section trainers code-------------------- -->
+    <section class="section-trainers m-b-8">
+      <h2 class="heading-secondary t-a-c m-b-8">our trainers</h2>
+
+      <div class="section-trainers__container m-b-8">
+        <div class="trainer-card">
+          <div class="trainer-card__cover">&nbsp;</div>
+
+          <div class="trainer-card__image-container">
+            <img
+              src="./public/images/trainer-1.png"
+              alt="Trainer profile picture"
+              class="trainer-card__image"
+            />
+          </div>
+
+          <p class="trainer-card__name">Thor Baba</p>
+
+          <div class="trainer-card__tag">owner</div>
+        </div>
+
+        <div class="trainer-card">
+          <div class="trainer-card__cover">&nbsp;</div>
+
+          <div class="trainer-card__image-container">
+            <img
+              src="./public/images/trainer-2.png"
+              alt="Trainer profile picture"
+              class="trainer-card__image"
+            />
+          </div>
+
+          <p class="trainer-card__name">Ioseb Meadhbh</p>
+
+          <div class="trainer-card__tag">weight trainer</div>
+        </div>
+
+        <div class="trainer-card">
+          <div class="trainer-card__cover">&nbsp;</div>
+
+          <div class="trainer-card__image-container">
+            <img
+              src="./public/images/trainer-3.png"
+              alt="Trainer profile picture"
+              class="trainer-card__image"
+            />
+          </div>
+
+          <p class="trainer-card__name">Epaphras Lewin</p>
+
+          <div class="trainer-card__tag">dietician</div>
+        </div>
+
+        <div class="trainer-card">
+          <div class="trainer-card__cover">&nbsp;</div>
+
+          <div class="trainer-card__image-container">
+            <img
+              src="./public/images/trainer-4.png"
+              alt="Trainer profile picture"
+              class="trainer-card__image"
+            />
+          </div>
+
+          <p class="trainer-card__name">Austen Ukko</p>
+
+          <div class="trainer-card__tag">yoga instructor</div>
+        </div>
+      </div>
+
+      <a href="#learn-more" class="btn-tertiary">learn more &rarr;</a>
+    </section>
+    <!-- --------------------Section trainers code-------------------- -->
+
+    <!-- --------------------Section testimonial code-------------------- -->
+    <section class="section-testimonial m-b-8">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="./public/videos/BG Video.mp4" />
+        </video>
+      </div>
+
+      <h2 class="heading-secondary m-b-8 t-a-c">testimonial</h2>
+
+      <div class="testimonial-card">
+        <div class="testimonial-card__image-container">
+          <img src="./public/images/client-1.png" alt="User image" />
+        </div>
+
+        <div class="testimonial-card__container">
+          <p class="testimonial-card__name">Apollon Neha</p>
+
+          <p class="testimonial-card__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+            animi! Ipsa, officiis. Non nesciunt voluptatibus dolor sequi dolores
+            repellendus. Qui in neque aliquam similique illo officia, laborum
+            facilis minus? Sapiente.neque aliquam similique illo officia,
+            laborum facilis minus? Sapiente.aliquam similique illo officia,
+            laborum facilis minus? Sapiente.
+          </p>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-card__image-container">
+          <img src="./public/images/client-2.png" alt="User image" />
+        </div>
+
+        <div class="testimonial-card__container">
+          <p class="testimonial-card__name">Neriah Valdis</p>
+
+          <p class="testimonial-card__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+            animi! Ipsa, officiis. Non nesciunt voluptatibus dolor sequi dolores
+            repellendus. Qui in neque aliquam similique illo officia, laborum
+            facilis minus? Sapiente.neque aliquam similique illo officia,
+            laborum facilis minus? Sapiente.aliquam similique illo officia,
+            laborum facilis minus? Sapiente.
+          </p>
+        </div>
+      </div>
+
+      <a href="#learn-more" class="btn-tertiary">learn more &rarr;</a>
+    </section>
+    <!-- --------------------Section testimonial code-------------------- -->
+
+    <!-- --------------------Section contact us code-------------------- -->
+    <section class="section-contact">
+      <h2 class="heading-secondary m-b-8 t-a-c">contact us</h2>
+
+      <div class="section-contact__container m-b-8">
+        <form class="form">
+          <label for="form__input--name" class="form__input-group">
+            <input
+              type="text"
+              placeholder="Name"
+              class="form__input"
+              id="form__input--name"
+              required
+            />
+
+            <span class="form__input-label">Name</span>
+          </label>
+
+          <label for="form__input--email" class="form__input-group">
+            <input
+              type="email"
+              placeholder="Email"
+              class="form__input"
+              id="form__input--email"
+              required
+            />
+
+            <span class="form__input-label">Email</span>
+          </label>
+
+          <label for="form__input--number" class="form__input-group">
+            <input
+              type="number"
+              placeholder="Mobile NO."
+              class="form__input"
+              id="form__input--email"
+              required
+            />
+
+            <span class="form__input-label">Mobile NO.</span>
+          </label>
+
+          <input type="submit" value="get a call back" class="btn-secondary" />
+        </form>
+
+        <div class="section-contact__divider">&nbsp;</div>
+
+        <div class="section-contact__info-container">
+          <a href="#HOME" class="logo">
+            <img src="./public/images/logo-1x-black.png" alt="Brand Logo" />
+          </a>
+
+          <p class="info-primary">
+            <svg class="info-primary__icon">
+              <use href="./public/images/spite.svg#icon-map-pin"></use>
+            </svg>
+
+            <span class="info-primary__text">
+              A 30, Mathura Road, Mohan Indl Estate, Delhi, 110044
+            </span>
+          </p>
+
+          <p class="info-primary">
+            <svg class="info-primary__icon">
+              <use href="./public/images/spite.svg#icon-phone"></use>
+            </svg>
+
+            <span class="info-primary__text"> +91 01141678920 </span>
+          </p>
+
+          <p class="info-primary">
+            <svg class="info-primary__icon">
+              <use href="./public/images/spite.svg#icon-mail"></use>
+            </svg>
+
+            <span class="info-primary__text"> poroje7090@webonoid.com </span>
+          </p>
+        </div>
+      </div>
+
+      <a href="#learn-more" class="btn-tertiary m-b-8">learn more &rarr;</a>
+
+      <div class="map" id="map">&nbsp;</div>
+    </section>
+    <!-- --------------------Section contact us code-------------------- -->
+
+    <!-- --------------------Section footer code-------------------- -->
+    <footer class="footer">
+      <div class="footer__container">
+        <a href="#HOME" class="logo">
+          <img src="./public/images/logo-2x-white.png" alt="Brand Logo" />
+        </a>
+
+        <!-- nav-links is a component that can be reuse anywhere on the website -->
+        <ul class="nav-links">
+          <li class="nav-links__item">
+            <a href="#SERVICES" class="nav-links__link">services</a>
+          </li>
+
+          <li class="nav-links__item">
+            <a href="#ABOUT-US" class="nav-links__link">about us</a>
+          </li>
+
+          <li class="nav-links__item">
+            <a href="#CONTACT-US" class="nav-links__link">contact us</a>
+          </li>
+        </ul>
+
+        <form class="footer__news-letter">
+          <input
+            type="email"
+            placeholder="Email"
+            class="footer__news-letter__input"
+            required
+          />
+
+          <input
+            type="submit"
+            value="subscribe"
+            class="footer__news-letter__btn"
+          />
+        </form>
+      </div>
+
+      <div class="footer__container">
+        <p class="copyright">
+          <span class="copyright__text">made with ❤️ by</span>
+
+          <a
+            href="https://github.com/the-sourov/"
+            class="copyright__link"
+            target="_blank"
+          >
+            sourov
+          </a>
+        </p>
+      </div>
+    </footer>
+    <!-- --------------------Section footer code-------------------- -->
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
+    <script src="./public/script/script.js"></script>
+  </body>
+</html>

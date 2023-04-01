@@ -1,0 +1,11 @@
+.section-testimonial {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 8rem 2rem;
+
+  & > *:not(:last-child) {
+    margin-bottom: 8rem;
+  }
+}

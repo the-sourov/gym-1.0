@@ -1,0 +1,26 @@
+.section-hero {
+  background-image: $gradient-40, url("./../images/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 2rem;
+  position: relative;
+
+  &__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  & .heading-primary--sub {
+    animation: moveLeft 1.5s cubic-bezier(0, 1.01, 0, 1);
+  }
+  & .heading-primary--main {
+    animation: moveRight 1.5s cubic-bezier(0, 1.01, 0, 1);
+  }
+}

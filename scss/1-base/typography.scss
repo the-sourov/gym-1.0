@@ -1,0 +1,119 @@
+// ====================> Importing googles fonts
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&family=Montserrat:wght@400;500;700&display=swap");
+
+// ====================> Heading primary
+.heading-primary {
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+
+  margin-bottom: 8rem;
+
+  &--sub {
+    color: var(--color-white-90);
+    font-size: 4rem;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 0.5rem;
+  }
+  &--main {
+    color: var(--color-white);
+    display: block;
+    font-size: 8rem;
+    font-weight: 700;
+    letter-spacing: 2rem;
+  }
+}
+
+// ====================> Heading secondary
+.heading-secondary {
+  background-image: $gradient;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 6rem;
+  font-weight: 700;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+}
+
+// ====================> Quote
+.quote {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+
+  &--gradient {
+    color: transparent;
+    background-image: $gradient;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  &:hover {
+    cursor: default;
+  }
+}
+
+// ====================> Info primary
+.info-primary {
+  align-items: center;
+  display: flex;
+
+  &__icon {
+    display: inline-block;
+    fill: var(--color-primary);
+    height: 4rem;
+    margin-right: 3rem;
+    width: 4rem;
+  }
+
+  &__text {
+    color: var(--color-black);
+    font-size: 2.5rem;
+    font-weight: 500;
+
+    &:hover {
+      cursor: default;
+    }
+  }
+}
+
+// ====================> Copyright
+.copyright {
+  display: block;
+  margin: 0 auto;
+
+  &__text {
+    color: var(--color-white-90);
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-right: 0.8rem;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    &,
+    &:link,
+    &:active,
+    &:visited {
+      color: var(--color-white-90);
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    &:hover {
+      border-bottom: 1px solid var(--color-white-90);
+    }
+  }
+
+  &:hover {
+    cursor: default;
+  }
+}
